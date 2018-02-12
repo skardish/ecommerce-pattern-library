@@ -1,13 +1,37 @@
 :root {
-  --color-primary: #40948a;
-  --color-primary-light: #b2eae1;
-  --color-secondary: #eccf75;
-  --color-accent: #de6e55;
-  --color-neutral: #f7f7f7;
+  --color-primary: #ca2039;
+  --color-secondary: #a01c2f;
+  --color-accent: #e65d55;
+  --color-neutral: #e5e5e5;
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Merriweather", sans-serif;
 }
 
 html {
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+a {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+ul,
+ol,
+dl,
+blockquote,
+cite,
+q {
+  color: var(--color-secondary);
   font-family: var(--font-primary);
 }
