@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1519658002132
+ * @version 1519659845828
  */
-const patternManifest_1519658002132 = {
+const patternManifest_1519659845828 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -554,7 +554,8 @@ const patternManifest_1519658002132 = {
     },
     "patterns": [
       "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons",
-      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards"
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms"
     ],
     "pages": []
   },
@@ -638,6 +639,47 @@ const patternManifest_1519658002132 = {
           "localPath": "patterns/cards/cards.css"
         }
       ]
+    },
+    {
+      "name": "forms",
+      "namePretty": "Forms",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms",
+      "html": [
+        {
+          "name": "checkboxes",
+          "namePretty": "Checkboxes",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/checkboxes.html",
+          "localPath": "patterns/forms/checkboxes.html"
+        },
+        {
+          "name": "dropboxes",
+          "namePretty": "Dropboxes",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/dropboxes.html",
+          "localPath": "patterns/forms/dropboxes.html"
+        },
+        {
+          "name": "text-input",
+          "namePretty": "Text input",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/text-input.html",
+          "localPath": "patterns/forms/text-input.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/README.md",
+          "localPath": "patterns/forms/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "forms",
+          "namePretty": "Forms",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/forms.css",
+          "localPath": "patterns/forms/forms.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -660,5 +702,5 @@ const patternManifest_1519658002132 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519658002132);
+patternBotIncludes(patternManifest_1519659845828);
 }());
