@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1520259954942
+ * @version 1520261598131
  */
-const patternManifest_1520259954942 = {
+const patternManifest_1520261598131 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -553,6 +553,8 @@ const patternManifest_1520259954942 = {
       "size64Local": "logo-64.svg"
     },
     "patterns": [
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Footer",
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Header",
       "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners",
       "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons",
       "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards",
@@ -666,6 +668,14 @@ const patternManifest_1520259954942 = {
       ]
     },
     {
+      "name": "footer",
+      "namePretty": "Footer",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Footer",
+      "html": [],
+      "md": [],
+      "css": []
+    },
+    {
       "name": "forms",
       "namePretty": "Forms",
       "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms",
@@ -703,6 +713,35 @@ const patternManifest_1520259954942 = {
           "namePretty": "Forms",
           "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "namePretty": "Header",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Header",
+      "html": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Header/header.html",
+          "localPath": "patterns/Header/header.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Header/README.md",
+          "localPath": "patterns/Header/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Header/header.css",
+          "localPath": "patterns/Header/header.css"
         }
       ]
     },
@@ -791,5 +830,5 @@ const patternManifest_1520259954942 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520259954942);
+patternBotIncludes(patternManifest_1520261598131);
 }());
