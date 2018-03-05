@@ -1,4 +1,4 @@
-.nav {
+.nav ol{
   position: relative;
   background-color: var(--color-secondary);
   z-index: 2;
@@ -6,12 +6,12 @@
   text-decoration: none;
 }
 
-.nav:hover {
+.nav ol:hover {
   background-color: var(--color-secondary);
   color: #fff;
 }
 
-nav .selection {
+nav ol .selection {
   background-color: var(--color-secondary);
   color: #fff;
   border-radius: 5px;
@@ -28,4 +28,31 @@ nav .selection {
   border-color: var(--color-primary);
   color: #fff;
   transition: all 250ms ease;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 5px;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  transition: all 250ms ease;
+  border-radius: 5px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
 }

@@ -1,1 +1,1 @@
-This is the main navigation for the website.
+This is the main and secondary navigation for the website.
