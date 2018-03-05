@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1519659845828
+ * @version 1520247537713
  */
-const patternManifest_1519659845828 = {
+const patternManifest_1520247537713 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -553,6 +553,7 @@ const patternManifest_1519659845828 = {
       "size64Local": "logo-64.svg"
     },
     "patterns": [
+      "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners",
       "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons",
       "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards",
       "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms"
@@ -560,6 +561,35 @@ const patternManifest_1519659845828 = {
     "pages": []
   },
   "userPatterns": [
+    {
+      "name": "banners",
+      "namePretty": "Banners",
+      "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners",
+      "html": [
+        {
+          "name": "product-banner",
+          "namePretty": "Product banner",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners/product-banner.html",
+          "localPath": "patterns/banners/product-banner.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners/README.md",
+          "localPath": "patterns/banners/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "banners",
+          "namePretty": "Banners",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners/banners.css",
+          "localPath": "patterns/banners/banners.css"
+        }
+      ]
+    },
     {
       "name": "buttons",
       "namePretty": "Buttons",
@@ -613,13 +643,6 @@ const patternManifest_1519659845828 = {
           "namePretty": "Product info card",
           "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/product-info-card.html",
           "localPath": "patterns/cards/product-info-card.html",
-          "readme": {}
-        },
-        {
-          "name": "sectional-banner",
-          "namePretty": "Sectional banner",
-          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/sectional-banner.html",
-          "localPath": "patterns/cards/sectional-banner.html",
           "readme": {}
         }
       ],
@@ -702,5 +725,5 @@ const patternManifest_1519659845828 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519659845828);
+patternBotIncludes(patternManifest_1520247537713);
 }());
