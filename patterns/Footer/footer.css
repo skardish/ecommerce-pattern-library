@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.nav ol {
+  border-bottom: .1em solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  transition: all 250ms ease;
+}
