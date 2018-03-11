@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1520261598131
+ * @version 1520792226000
  */
-const patternManifest_1520261598131 = {
+const patternManifest_1520792226000 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -671,9 +671,30 @@ const patternManifest_1520261598131 = {
       "name": "footer",
       "namePretty": "Footer",
       "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Footer",
-      "html": [],
-      "md": [],
-      "css": []
+      "html": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Footer/footer.html",
+          "localPath": "patterns/Footer/footer.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Footer/README.md",
+          "localPath": "patterns/Footer/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/Footer/footer.css",
+          "localPath": "patterns/Footer/footer.css"
+        }
+      ]
     },
     {
       "name": "forms",
@@ -830,5 +851,5 @@ const patternManifest_1520261598131 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520261598131);
+patternBotIncludes(patternManifest_1520792226000);
 }());
