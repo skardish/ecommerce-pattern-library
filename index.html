@@ -232,6 +232,16 @@
         <nav class="nav mega">
           <ul class="list-group">
               <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/checkout.html" target="_blank">
+                  <div class="relative">
+                    <span>Checkout</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                   <div class="relative">
                     <span>Home</span>
@@ -808,42 +818,115 @@
 
 </section>
 
-        <section class="pattern" id="banners" role="tabpanel" hidden aria-hidden="true" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+        <section class="pattern" id="banners" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
     <h2 class="pattern-name exa push-1-4" style="color: #44948a; font-family: &quot;Merriweather&quot;, sans-serif;">Banners</h2>
-        <ul class="list-group-inline gutter absolute pin-cr">
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banners-product-banner-code-sample">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-code"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banners/product-banner" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banners/product-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-pop-out"></use></svg>
-                </i>
-              </a>
-            </li>
-        </ul>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#banners--checkout-banner">Checkout banner</a></li>
+            <li><a href="#banners--product-banner">Product banner</a></li>
+        </ol>
+      </nav>
   </div>
 
-    <div class="pattern-desc milli island" style="">
-      <div class="max-length"><p>This banner is for the top of the homepage page under the navigation.</p>
+    <div class="pattern-desc milli island" >
+      <div class="max-length"><p>This banner is for the top of the homepage page under the navigation. The product banner goes on the home page, and the checkout banner goes on the checkout page.</p>
 </div>
     </div>
 
   
 
+    <div class="pattern-details " id="banners--checkout-banner" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Checkout banner</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banners-checkout-banner-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banners/checkout-banner" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banners/checkout-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/banners/checkout-banner.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="banners-checkout-banner-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#banners-checkout-banner-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="banners-checkout-banner-code-sample-copy-chunk">&lt;div class="banner embed embed-24by10"&gt;
+  &lt;img class="embed-item" src="../../images/checkout-banner.jpg" alt="" aria-details="">
+  &lt;figcaption class="absolute w-1 pin-bc pad-t-1-2 pad-b-1-2 gutter push exa">CHECKOUT&lt;/figcaption>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="banners--product-banner" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Product banner</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banners-product-banner-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banners/product-banner" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banners/product-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
@@ -969,6 +1052,7 @@
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#cards--basic-card">Basic card</a></li>
+            <li><a href="#cards--checkout-card">Checkout card</a></li>
             <li><a href="#cards--product-info-card">Product info card</a></li>
         </ol>
       </nav>
@@ -1048,6 +1132,81 @@
   &lt;/div>
   &lt;div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
     &lt;img class="img-flex embed-item embed-3by2 relative gutter pad-b-2 pad-t" src="../../images/bogo-chairs.jpg" alt="" role="">
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="cards--checkout-card" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Checkout card</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-checkout-card-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="cards/checkout-card" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/checkout-card.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The checkout card will appear on the checkout page, while checking out.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/cards/checkout-card.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-checkout-card-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-checkout-card-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-checkout-card-code-sample-copy-chunk">&lt;div class="grid"&gt;
+  &lt;div class="unit xs-1 m-1-2 l-1-2">
+    &lt;div class="grid">
+      &lt;div class="gutter-1-2 pad-t unit xs-1 m-1 l-1-2">
+        &lt;h4>Your Cart &lt;i class="icon i-32">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#cart"/>&lt;/svg>&lt;/i> &lt;/h4>
+        &lt;p> You currently have the following items in your cart: The Todd. &lt;/p>
+      &lt;/div>
+    &lt;/div>
   &lt;/div>
 &lt;/div>
 </pre></code>
@@ -1269,7 +1428,7 @@
         &lt;a class="text-center kilo gutter-1-2" href="product-list.html">Shop&lt;/a>
       &lt;/li>
       &lt;li>
-        &lt;a class="text-center kilo gutter-1-2" href="#">Blog&lt;/a>
+        &lt;a class="text-center kilo gutter-1-2" href="checkout.html">Checkout&lt;/a>
       &lt;/li>
       &lt;li>
         &lt;a class="text-center kilo gutter-1-2" href="#">Contact Us&lt;/a>
@@ -1298,7 +1457,7 @@
   </div>
 
     <div class="pattern-desc milli island" >
-      <div class="max-length"><p>These forms are for customizing your choices for the furniture you have selected.</p>
+      <div class="max-length"><p>These forms are for customizing your choices for the furniture you have selected, as well as check out information.</p>
 </div>
     </div>
 
@@ -1445,11 +1604,11 @@
               <code><pre id="forms-dropboxes-code-sample-copy-chunk">&lt;form&gt;
   &lt;fieldset>
     &lt;div class="unit xs push gutter-1-2 pad-b-2">
-      &lt;label for="" class="push-1-8 pad-b-1-2 giga bold">What kind of furniture are you looking for?&lt;/label>
+      &lt;label for="" class="push-1-8 pad-b-1-2 giga bold">Please select a shipping option&lt;/label>
       &lt;select id="" name="...">
-        &lt;option>Chairs&lt;/option>
-        &lt;option>Dressers&lt;/option>
-        &lt;option>Beds&lt;/option>
+        &lt;option>FREE (12-15 Business Days)&lt;/option>
+        &lt;option>Standard $20 (8-10 Business Days)&lt;/option>
+        &lt;option>Premium $50 (1-2 Business Days)&lt;/option>
       &lt;/select>
     &lt;/div>
   &lt;/fieldset>
@@ -1514,21 +1673,53 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-text-input-code-sample-copy-chunk">&lt;form&gt;
-  &lt;fieldset class="gutter-1-2 pad-b-2">
-    &lt;p class="giga bold pad-t-1-2"> Personal Information &lt;/p>
+              <code><pre id="forms-text-input-code-sample-copy-chunk">&lt;div class="max-length island" method="POST" action="ttps://formspree.io/skardish@outlook.com"&gt;
+  &lt;fieldset>
+    &lt;legend class="italic giga push"> Personal details &lt;/legend>
     &lt;div class="grid">
-      &lt;div class="unit unit-xs-1 unit-s-1 unit-m-1-2 pad-1" role="complementary">
-        &lt;label for="name">Full name&lt;/label>
-        &lt;input class="push" id="name" type="text" name="..." required>
+      &lt;div class="push unit xs-1 l-1-2">
+        &lt;label for="name">Name&lt;/label>
+        &lt;input id="name" name="name">
       &lt;/div>
-      &lt;div class="unit unit-xs-1 unit-s-1 unit-m-1-2" role="complementary">
+      &lt;div class="push unit xs-1 m-1 l-1-2">
+        &lt;label for="phone">Phone Number&lt;/label>
+        &lt;input id="phone" name="phone">
+      &lt;/div>
+      &lt;div class="push unit xs-1 l-1-2">
+        &lt;label for="email">Email&lt;/label>
+        &lt;input id="email" type="email" name="email">
+      &lt;/div>
+      &lt;div class="push unit xs-1 l-1-2">
+        &lt;label for="shipping">Please select a shipping option&lt;/label>
+        &lt;select id="shipping" name="shipping">
+          &lt;option>FREE (12-15 Business Days)&lt;/option>
+          &lt;option>Standard $20 (8-10 Business Days)&lt;/option>
+          &lt;option>Premium $50 (1-2 Business Days)&lt;/option>
+        &lt;/select>
+      &lt;/div>
+      &lt;div class="push unit xs-1 l-1-2">
         &lt;label for="address">Address&lt;/label>
-        &lt;input class="push" id="address" type="text" name="...">
+        &lt;textarea id="address" name="adress">&lt;/textarea>
+      &lt;/div>
+      &lt;div class="push unit xs-1 l-1-2">
+        &lt;label for="credit">Credit Card Info&lt;/label>
+        &lt;textarea id="credit" name="credit">&lt;/textarea>
       &lt;/div>
     &lt;/div>
   &lt;/fieldset>
-&lt;/form>
+  &lt;fieldset>
+    &lt;legend class="italic giga push"> Feedback &lt;/legend>
+    &lt;div class="push">
+      &lt;label for="statement"> How was your experience with us today? &lt;/label>
+      &lt;textarea id="statement" name="statement">&lt;/textarea>
+    &lt;/div>
+    &lt;input type="hidden" name="_subject" value="feedback">
+    &lt;div class="text-center push">
+      &lt;button class="btn" type="checkout"> Finalize Purchase &lt;/button>
+    &lt;/div>
+  &lt;/fieldset>
+
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1622,7 +1813,7 @@
           &lt;a class="text-center kilo gutter-1-2" href="product-list.html">Shop&lt;/a>
         &lt;/li>
         &lt;li>
-          &lt;a class="text-center kilo gutter-1-2" href="#">Blog&lt;/a>
+          &lt;a class="text-center kilo gutter-1-2" href="checkout.html">Checkout&lt;/a>
         &lt;/li>
         &lt;li>
           &lt;a class="text-center kilo gutter-1-2" href="#">Contact Us&lt;/a>

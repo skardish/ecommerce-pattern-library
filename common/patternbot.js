@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/ecommerce-pattern-library
- * @version 1523255991296
+ * @version 1523260590213
  */
-const patternManifest_1523255991296 = {
+const patternManifest_1523260590213 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -606,6 +606,11 @@ const patternManifest_1523255991296 = {
     ],
     "pages": [
       {
+        "name": "checkout.html",
+        "namePretty": "Checkout",
+        "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/checkout.html"
+      },
+      {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/home.html"
@@ -623,6 +628,12 @@ const patternManifest_1523255991296 = {
       "namePretty": "Banners",
       "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners",
       "html": [
+        {
+          "name": "checkout-banner",
+          "namePretty": "Checkout banner",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners/checkout-banner.html",
+          "localPath": "patterns/banners/checkout-banner.html"
+        },
         {
           "name": "product-banner",
           "namePretty": "Product banner",
@@ -686,6 +697,13 @@ const patternManifest_1523255991296 = {
           "namePretty": "Basic card",
           "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/basic-card.html",
           "localPath": "patterns/cards/basic-card.html",
+          "readme": {}
+        },
+        {
+          "name": "checkout-card",
+          "namePretty": "Checkout card",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/checkout-card.html",
+          "localPath": "patterns/cards/checkout-card.html",
           "readme": {}
         },
         {
@@ -891,5 +909,5 @@ const patternManifest_1523255991296 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523255991296);
+patternBotIncludes(patternManifest_1523260590213);
 }());
