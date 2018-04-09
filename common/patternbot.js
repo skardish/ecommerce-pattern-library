@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney
- * @version 1523277198567
+ * @version 1523281478822
  */
-const patternManifest_1523277198567 = {
+const patternManifest_1523281478822 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -602,7 +602,7 @@ const patternManifest_1523277198567 = {
       "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards",
       "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms",
       "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/leftovers",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections"
+      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html"
     ],
     "pages": [
       {
@@ -709,6 +709,13 @@ const patternManifest_1523277198567 = {
           "namePretty": "Checkout card",
           "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/checkout-card.html",
           "localPath": "patterns/cards/checkout-card.html",
+          "readme": {}
+        },
+        {
+          "name": "product-details",
+          "namePretty": "Product details",
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/product-details.html",
+          "localPath": "patterns/cards/product-details.html",
           "readme": {}
         },
         {
@@ -867,29 +874,29 @@ const patternManifest_1523277198567 = {
     {
       "name": "sections",
       "namePretty": "Sections",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections",
+      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html",
       "html": [
         {
           "name": "section",
           "namePretty": "Section",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections/section.html",
-          "localPath": "patterns/sections/section.html"
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html/section.html",
+          "localPath": "patterns/sections.html/section.html"
         }
       ],
       "md": [
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections/README.md",
-          "localPath": "patterns/sections/README.md"
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html/README.md",
+          "localPath": "patterns/sections.html/README.md"
         }
       ],
       "css": [
         {
           "name": "sections",
           "namePretty": "Sections",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections/sections.css",
-          "localPath": "patterns/sections/sections.css"
+          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html/sections.css",
+          "localPath": "patterns/sections.html/sections.css"
         }
       ]
     }
@@ -914,5 +921,5 @@ const patternManifest_1523277198567 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523277198567);
+patternBotIncludes(patternManifest_1523281478822);
 }());
