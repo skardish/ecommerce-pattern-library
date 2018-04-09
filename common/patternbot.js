@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/ecommerce-pattern-library
- * @version 1523251379360
+ * @version 1523255991296
  */
-const patternManifest_1523251379360 = {
+const patternManifest_1523255991296 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -609,6 +609,11 @@ const patternManifest_1523251379360 = {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "product-list.html",
+        "namePretty": "Product list",
+        "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/product-list.html"
       }
     ]
   },
@@ -681,13 +686,6 @@ const patternManifest_1523251379360 = {
           "namePretty": "Basic card",
           "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/basic-card.html",
           "localPath": "patterns/cards/basic-card.html",
-          "readme": {}
-        },
-        {
-          "name": "icon-card",
-          "namePretty": "Icon card",
-          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/icon-card.html",
-          "localPath": "patterns/cards/icon-card.html",
           "readme": {}
         },
         {
@@ -893,5 +891,5 @@ const patternManifest_1523251379360 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523251379360);
+patternBotIncludes(patternManifest_1523255991296);
 }());
