@@ -26,13 +26,19 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-primary);
+  border: transparent;
+  text-decoration: none;
+  border-radius: none;
+  color: #fff;
   color: var(--color-primary);
 }
 
 .btn-ghost:hover {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: #fff;
-  transition: all 250ms ease;
+  background-color: transparent;
+  color: var(--color-accent);
+  border-top: 2px solid var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  border-radius: none;
+  padding-bottom: 3px;
+  transition: .5s ease;
 }

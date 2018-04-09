@@ -6,12 +6,5 @@
 .banner {
   position: relative;
   overflow: hidden;
-  max-height: 24em;
-  color: var(--color-secondary);
-}
-
-.banner-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  max-height: 30em;
 }

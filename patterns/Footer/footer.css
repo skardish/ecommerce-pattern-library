@@ -1,21 +1,53 @@
-.footer {
-  background-color: var(--color-primary);
-  color: #fff;
+footer {
+  background-color: var(--color-secondary);
 }
 
-.nav ol {
-  border-bottom: .1em solid #fff;
-  color: #fff;
+li a {
+  display: block;
   text-decoration: none;
-}
-
-.btn-ghost {
-  background-color: transparent;
   color: #fff;
 }
 
-.btn-ghost:hover {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
-  transition: all 250ms ease;
+.instagram {
+  transition: all .2s linear;
+  transform: scale(2.0);
+}
+
+.instagram:hover {
+  transform: scale(2.5);
+}
+
+.facebook {
+  transition: all .2s linear;
+  transform: scale(2.0);
+}
+
+.facebook:hover {
+  transform: scale(2.5);
+}
+
+.twitter {
+  transition: all .2s linear;
+  transform: scale(2.0);
+}
+
+.twitter:hover {
+  transform: scale(2.5);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .social {
+    text-align: left;
+  }
+
+  .footer {
+    text-align: right;
+  }
+
+  li a{
+    display: inline-block;
+    text-decoration: none;
+  }
+
 }
