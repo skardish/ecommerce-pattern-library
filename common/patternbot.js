@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1523260743352
+ * @version 1523279649848
  */
-const patternManifest_1523260743352 = {
+const patternManifest_1523279649848 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -707,6 +707,12 @@ const patternManifest_1523260743352 = {
           "readme": {}
         },
         {
+          "name": "product-details",
+          "namePretty": "Product details",
+          "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/product-details.html",
+          "localPath": "patterns/cards/product-details.html"
+        },
+        {
           "name": "product-info-card",
           "namePretty": "Product info card",
           "path": "/Users/skardish/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/product-info-card.html",
@@ -909,5 +915,5 @@ const patternManifest_1523260743352 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523260743352);
+patternBotIncludes(patternManifest_1523279649848);
 }());

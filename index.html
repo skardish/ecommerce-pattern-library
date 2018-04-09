@@ -1053,6 +1053,7 @@
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#cards--basic-card">Basic card</a></li>
             <li><a href="#cards--checkout-card">Checkout card</a></li>
+            <li><a href="#cards--product-details">Product details</a></li>
             <li><a href="#cards--product-info-card">Product info card</a></li>
         </ol>
       </nav>
@@ -1214,6 +1215,82 @@
           </div>
       </div>
     </div>
+    <div class="pattern-details " id="cards--product-details" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Product details</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-product-details-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="cards/product-details" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/product-details.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/cards/product-details.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-product-details-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-product-details-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-product-details-code-sample-copy-chunk">&lt;section&gt;
+  &lt;div class="banner">
+    &lt;div class="banner-content">
+      &lt;h3 class="zetta">&lt;span>THE STELLA&lt;/span>&lt;/h3>
+      &lt;h4 class="giga">lovely hand woven fabrics, with real wood legs.&lt;/h4>
+      &lt;p class="kilo">This chair was hand made, made with the sofest fabrics, and real wood. Custom options are available.&lt;/p>
+      &lt;p class="kilo">Specs: 7&quot; long by 10&quot; wide. This piece fits perfectly in most living rooms, or studies. &lt;/p>
+    &lt;/div>
+    &lt;div class="pad-b">
+      &lt;img class="img-flex" src="../../images/chairs.jpg" alt="">
+    &lt;/div>
+    &lt;div>
+      &lt;a class="btn" href="checkout.html"> Buy now &lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="cards--product-info-card" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Product info card</h3>
@@ -1273,7 +1350,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-product-info-card-code-sample-copy-chunk">&lt;ol class="grid grid-stretch"&gt;
+              <code><pre id="cards-product-info-card-code-sample-copy-chunk">&lt;ul class="grid grid-stretch"&gt;
   &lt;li class="unit unit-content-distribute island-1-4 push-1-2 xs-1 m-1-2">
     &lt;div class="card content-fill island-1-2">
       &lt;img class="img-flex push-1-2" src="../../images/beds.jpg" alt="">
@@ -1287,7 +1364,7 @@
       &lt;img class="img-flex push-1-2" src="../../images/chairs.jpg" alt="">
       &lt;h3 class="giga push-1-2"> Chairs &lt;/h3>
       &lt;p class="push-1-2"> Explore our wide variety of chairs and customize your own colours, fabrics, and wood options. &lt;/p>
-      &lt;a class="mega btn" href="#">Shop Chairs!&lt;/a>
+      &lt;a class="mega btn" href="product-details.html">Shop Chairs!&lt;/a>
     &lt;/div>
   &lt;/li>
   &lt;li class="unit unit-content-distribute island-1-4 push-1-2 xs-1 m-1-2">
@@ -1322,7 +1399,7 @@
       &lt;a class="mega btn" href="#">Shop Tables!&lt;/a>
     &lt;/div>
   &lt;/li>
-&lt;/ol>
+&lt;/ul>
 </pre></code>
             </div>
           </div>
