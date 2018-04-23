@@ -387,10 +387,17 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
+<<<<<<< HEAD
  * /Users/skardish/Desktop/ecommerce-pattern-library
  * @version 1524461000762
  */
 const patternManifest_1524461000762 = {
+=======
+ * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney
+ * @version 1524484661102
+ */
+const patternManifest_1524484661102 = {
+>>>>>>> 3c4defb0d440045306a82e30274d8130362a2b42
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -921,5 +928,9 @@ const patternManifest_1524461000762 = {
   }
 };
 
+<<<<<<< HEAD
 patternBotIncludes(patternManifest_1524461000762);
+=======
+patternBotIncludes(patternManifest_1524484661102);
+>>>>>>> 3c4defb0d440045306a82e30274d8130362a2b42
 }());
