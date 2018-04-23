@@ -387,10 +387,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney
- * @version 1523281730845
+ * /Users/skardish/Desktop/ecommerce-pattern-library
+ * @version 1524461000762
  */
-const patternManifest_1523281730844 = {
+const patternManifest_1524461000762 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -576,54 +576,54 @@ const patternManifest_1523281730844 = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/common/grid.css",
-      "typografier": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/common/type.css",
-      "modulifier": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/common/modules.css",
-      "theme": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/common/theme.css"
+      "gridifier": "/Users/skardish/Desktop/ecommerce-pattern-library/common/grid.css",
+      "typografier": "/Users/skardish/Desktop/ecommerce-pattern-library/common/type.css",
+      "modulifier": "/Users/skardish/Desktop/ecommerce-pattern-library/common/modules.css",
+      "theme": "/Users/skardish/Desktop/ecommerce-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/images/icons.svg"
+      "icons": "/Users/skardish/Desktop/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/images/logo-256.svg",
-      "size64": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/images/logo-64.svg",
-      "size32": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/images/logo-32.svg",
-      "size16": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/images/logo-16.svg",
+      "sizeLarge": "/Users/skardish/Desktop/ecommerce-pattern-library/images/logo-256.svg",
+      "size64": "/Users/skardish/Desktop/ecommerce-pattern-library/images/logo-64.svg",
+      "size32": "/Users/skardish/Desktop/ecommerce-pattern-library/images/logo-32.svg",
+      "size16": "/Users/skardish/Desktop/ecommerce-pattern-library/images/logo-16.svg",
       "size16Local": "logo-16.svg",
       "sizeLargeLocal": "logo-256.svg",
       "size32Local": "logo-32.svg",
       "size64Local": "logo-64.svg"
     },
     "patterns": [
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Footer",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Header",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/banners",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/buttons",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/leftovers",
-      "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html"
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/buttons",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/leftovers",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/sections.html"
     ],
     "pages": [
       {
         "name": "checkout.html",
         "namePretty": "Checkout",
-        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/pages/checkout.html"
+        "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/checkout.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/pages/home.html"
+        "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/home.html"
       },
       {
         "name": "product-details.html",
         "namePretty": "Product details",
-        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/pages/product-details.html"
+        "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/product-details.html"
       },
       {
         "name": "product-list.html",
         "namePretty": "Product list",
-        "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/pages/product-list.html"
+        "path": "/Users/skardish/Desktop/ecommerce-pattern-library/pages/product-list.html"
       }
     ]
   },
@@ -631,18 +631,18 @@ const patternManifest_1523281730844 = {
     {
       "name": "banners",
       "namePretty": "Banners",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/banners",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners",
       "html": [
         {
           "name": "checkout-banner",
           "namePretty": "Checkout banner",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/banners/checkout-banner.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners/checkout-banner.html",
           "localPath": "patterns/banners/checkout-banner.html"
         },
         {
           "name": "product-banner",
           "namePretty": "Product banner",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/banners/product-banner.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners/product-banner.html",
           "localPath": "patterns/banners/product-banner.html"
         }
       ],
@@ -650,7 +650,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/banners/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners/README.md",
           "localPath": "patterns/banners/README.md"
         }
       ],
@@ -658,7 +658,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "banners",
           "namePretty": "Banners",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/banners/banners.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners/banners.css",
           "localPath": "patterns/banners/banners.css"
         }
       ]
@@ -666,12 +666,12 @@ const patternManifest_1523281730844 = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/buttons",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
           "name": "buttons",
           "namePretty": "Buttons",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/buttons/buttons.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/buttons/buttons.html",
           "localPath": "patterns/buttons/buttons.html"
         }
       ],
@@ -679,7 +679,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/buttons/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -687,7 +687,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "buttons",
           "namePretty": "Buttons",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/buttons/buttons.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ]
@@ -695,33 +695,33 @@ const patternManifest_1523281730844 = {
     {
       "name": "cards",
       "namePretty": "Cards",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
           "name": "basic-card",
           "namePretty": "Basic card",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/basic-card.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/basic-card.html",
           "localPath": "patterns/cards/basic-card.html",
           "readme": {}
         },
         {
           "name": "checkout-card",
           "namePretty": "Checkout card",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/checkout-card.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/checkout-card.html",
           "localPath": "patterns/cards/checkout-card.html",
           "readme": {}
         },
         {
           "name": "product-details",
           "namePretty": "Product details",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/product-details.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/product-details.html",
           "localPath": "patterns/cards/product-details.html",
           "readme": {}
         },
         {
           "name": "product-info-card",
           "namePretty": "Product info card",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/product-info-card.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/product-info-card.html",
           "localPath": "patterns/cards/product-info-card.html",
           "readme": {}
         }
@@ -730,7 +730,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/README.md",
           "localPath": "patterns/cards/README.md"
         }
       ],
@@ -738,7 +738,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "cards",
           "namePretty": "Cards",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/cards/cards.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
       ]
@@ -746,12 +746,12 @@ const patternManifest_1523281730844 = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Footer",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Footer/footer.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer/footer.html",
           "localPath": "patterns/Footer/footer.html"
         }
       ],
@@ -759,7 +759,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Footer/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer/README.md",
           "localPath": "patterns/Footer/README.md"
         }
       ],
@@ -767,7 +767,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "footer",
           "namePretty": "Footer",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Footer/footer.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer/footer.css",
           "localPath": "patterns/Footer/footer.css"
         }
       ]
@@ -775,24 +775,24 @@ const patternManifest_1523281730844 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
           "name": "checkboxes",
           "namePretty": "Checkboxes",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms/checkboxes.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms/checkboxes.html",
           "localPath": "patterns/forms/checkboxes.html"
         },
         {
           "name": "dropboxes",
           "namePretty": "Dropboxes",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms/dropboxes.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms/dropboxes.html",
           "localPath": "patterns/forms/dropboxes.html"
         },
         {
           "name": "text-input",
           "namePretty": "Text input",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms/text-input.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms/text-input.html",
           "localPath": "patterns/forms/text-input.html"
         }
       ],
@@ -800,7 +800,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms/README.md",
           "localPath": "patterns/forms/README.md"
         }
       ],
@@ -808,7 +808,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "forms",
           "namePretty": "Forms",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/forms/forms.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
       ]
@@ -816,12 +816,12 @@ const patternManifest_1523281730844 = {
     {
       "name": "header",
       "namePretty": "Header",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Header",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header",
       "html": [
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Header/header.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header/header.html",
           "localPath": "patterns/Header/header.html"
         }
       ],
@@ -829,7 +829,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Header/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header/README.md",
           "localPath": "patterns/Header/README.md"
         }
       ],
@@ -837,7 +837,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/Header/header.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header/header.css",
           "localPath": "patterns/Header/header.css"
         }
       ]
@@ -845,12 +845,12 @@ const patternManifest_1523281730844 = {
     {
       "name": "leftovers",
       "namePretty": "Leftovers",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/leftovers",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/leftovers",
       "html": [
         {
           "name": "leftovers",
           "namePretty": "Leftovers",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/leftovers/leftovers.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/leftovers/leftovers.html",
           "localPath": "patterns/leftovers/leftovers.html"
         }
       ],
@@ -858,7 +858,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/leftovers/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/leftovers/README.md",
           "localPath": "patterns/leftovers/README.md"
         }
       ],
@@ -866,7 +866,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "leftovers",
           "namePretty": "Leftovers",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/leftovers/leftovers.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/leftovers/leftovers.css",
           "localPath": "patterns/leftovers/leftovers.css"
         }
       ]
@@ -874,12 +874,12 @@ const patternManifest_1523281730844 = {
     {
       "name": "sections",
       "namePretty": "Sections",
-      "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/sections.html",
       "html": [
         {
           "name": "section",
           "namePretty": "Section",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html/section.html",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/sections.html/section.html",
           "localPath": "patterns/sections.html/section.html"
         }
       ],
@@ -887,7 +887,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html/README.md",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/sections.html/README.md",
           "localPath": "patterns/sections.html/README.md"
         }
       ],
@@ -895,7 +895,7 @@ const patternManifest_1523281730844 = {
         {
           "name": "sections",
           "namePretty": "Sections",
-          "path": "/Users/paolinamissio/Desktop/AC Graphic Design/Year 2/Web Development/ecommerce-pattern-library-sydney/patterns/sections.html/sections.css",
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/sections.html/sections.css",
           "localPath": "patterns/sections.html/sections.css"
         }
       ]
@@ -921,5 +921,5 @@ const patternManifest_1523281730844 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523281730844);
+patternBotIncludes(patternManifest_1524461000762);
 }());
