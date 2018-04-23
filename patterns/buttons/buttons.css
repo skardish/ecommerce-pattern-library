@@ -28,7 +28,6 @@
   background-color: transparent;
   border: transparent;
   text-decoration: none;
-  border-radius: none;
   color: #fff;
   color: var(--color-primary);
 }
@@ -38,7 +37,6 @@
   color: var(--color-accent);
   border-top: 2px solid var(--color-accent);
   border-bottom: 2px solid var(--color-accent);
-  border-radius: none;
   padding-bottom: 3px;
   transition: .5s ease;
 }
