@@ -1614,20 +1614,20 @@
     &lt;legend class="unit xs-1 giga bold push-1-2 gutter-1-2 push-r-2 pad-t-1-8 pad-b-1-2">What color would you like...&lt;/legend>
     &lt;div class="grid">
       &lt;div class="unit xs-1 m-1-2 gutter-1-2 push-1-4 pad-t-1-8">
-        &lt;input type="checkbox" id="">
-        &lt;label for="">Blue&lt;/label>
+        &lt;input type="checkbox" id="blue">
+        &lt;label for="blue">Blue&lt;/label>
       &lt;/div>
       &lt;div class="unit xs-1 m-1-2 gutter-1-2 push-1-4 pad-t-1-8">
-        &lt;input type="checkbox" id="">
-        &lt;label for="">Black&lt;/label>
+        &lt;input type="checkbox" id="black">
+        &lt;label for="black">Black&lt;/label>
       &lt;/div>
       &lt;div class="unit xs-1 m-1-2 gutter-1-2 push-1-4">
-        &lt;input type="checkbox" id="">
-        &lt;label for="">White&lt;/label>
+        &lt;input type="checkbox" id="white">
+        &lt;label for="white">White&lt;/label>
       &lt;/div>
       &lt;div class="unit xs-1 m-1-2 gutter-1-2 push-1-4">
-        &lt;input type="checkbox" id="">
-        &lt;label for="">Navy&lt;/label>
+        &lt;input type="checkbox" id="navy">
+        &lt;label for="navy">Navy&lt;/label>
       &lt;/div>
     &lt;/div>
   &lt;/fieldset>
@@ -1695,8 +1695,8 @@
               <code><pre id="forms-dropboxes-code-sample-copy-chunk">&lt;form&gt;
   &lt;fieldset>
     &lt;div class="unit xs push gutter-1-2 pad-b-2">
-      &lt;label for="" class="push-1-8 pad-b-1-2 giga bold">Please select a shipping option&lt;/label>
-      &lt;select id="" name="...">
+      &lt;label class="push-1-8 pad-b-1-2 giga bold">Please select a shipping option&lt;/label>
+      &lt;select name="...">
         &lt;option>FREE (12-15 Business Days)&lt;/option>
         &lt;option>Standard $20 (8-10 Business Days)&lt;/option>
         &lt;option>Premium $50 (1-2 Business Days)&lt;/option>
@@ -1764,52 +1764,53 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-text-input-code-sample-copy-chunk">&lt;div class="max-length island" method="POST" action="ttps://formspree.io/skardish@outlook.com"&gt;
-  &lt;fieldset>
-    &lt;legend class="italic giga push"> Personal details &lt;/legend>
-    &lt;div class="grid">
-      &lt;div class="push unit xs-1 l-1-2">
-        &lt;label for="name">Name&lt;/label>
-        &lt;input id="name" name="name">
+              <code><pre id="forms-text-input-code-sample-copy-chunk">&lt;div class="max-length island"&gt;
+  &lt;form method="POST" action="ttps://formspree.io/skardish@outlook.com">
+    &lt;fieldset>
+      &lt;legend class="italic giga push"> Personal details &lt;/legend>
+      &lt;div class="grid">
+        &lt;div class="push unit xs-1 l-1-2">
+          &lt;label for="name">Name&lt;/label>
+          &lt;input id="name" name="name">
+        &lt;/div>
+        &lt;div class="push unit xs-1 m-1 l-1-2">
+          &lt;label for="phone">Phone Number&lt;/label>
+          &lt;input id="phone" name="phone">
+        &lt;/div>
+        &lt;div class="push unit xs-1 l-1-2">
+          &lt;label for="email">Email&lt;/label>
+          &lt;input id="email" type="email" name="email">
+        &lt;/div>
+        &lt;div class="push unit xs-1 l-1-2">
+          &lt;label for="shipping">Please select a shipping option&lt;/label>
+          &lt;select id="shipping" name="shipping">
+            &lt;option>FREE (12-15 Business Days)&lt;/option>
+            &lt;option>Standard $20 (8-10 Business Days)&lt;/option>
+            &lt;option>Premium $50 (1-2 Business Days)&lt;/option>
+          &lt;/select>
+        &lt;/div>
+        &lt;div class="push unit xs-1 l-1-2">
+          &lt;label for="address">Address&lt;/label>
+          &lt;textarea id="address" name="adress">&lt;/textarea>
+        &lt;/div>
+        &lt;div class="push unit xs-1 l-1-2">
+          &lt;label for="credit">Credit Card Info&lt;/label>
+          &lt;textarea id="credit" name="credit">&lt;/textarea>
+        &lt;/div>
       &lt;/div>
-      &lt;div class="push unit xs-1 m-1 l-1-2">
-        &lt;label for="phone">Phone Number&lt;/label>
-        &lt;input id="phone" name="phone">
+    &lt;/fieldset>
+    &lt;fieldset>
+      &lt;legend class="italic giga push"> Feedback &lt;/legend>
+      &lt;div class="push">
+        &lt;label for="statement"> How was your experience with us today? &lt;/label>
+        &lt;textarea id="statement" name="statement">&lt;/textarea>
       &lt;/div>
-      &lt;div class="push unit xs-1 l-1-2">
-        &lt;label for="email">Email&lt;/label>
-        &lt;input id="email" type="email" name="email">
+      &lt;input type="hidden" name="_subject" value="feedback">
+      &lt;div class="text-center push">
+        &lt;button class="btn"> Finalize Purchase &lt;/button>
       &lt;/div>
-      &lt;div class="push unit xs-1 l-1-2">
-        &lt;label for="shipping">Please select a shipping option&lt;/label>
-        &lt;select id="shipping" name="shipping">
-          &lt;option>FREE (12-15 Business Days)&lt;/option>
-          &lt;option>Standard $20 (8-10 Business Days)&lt;/option>
-          &lt;option>Premium $50 (1-2 Business Days)&lt;/option>
-        &lt;/select>
-      &lt;/div>
-      &lt;div class="push unit xs-1 l-1-2">
-        &lt;label for="address">Address&lt;/label>
-        &lt;textarea id="address" name="adress">&lt;/textarea>
-      &lt;/div>
-      &lt;div class="push unit xs-1 l-1-2">
-        &lt;label for="credit">Credit Card Info&lt;/label>
-        &lt;textarea id="credit" name="credit">&lt;/textarea>
-      &lt;/div>
-    &lt;/div>
-  &lt;/fieldset>
-  &lt;fieldset>
-    &lt;legend class="italic giga push"> Feedback &lt;/legend>
-    &lt;div class="push">
-      &lt;label for="statement"> How was your experience with us today? &lt;/label>
-      &lt;textarea id="statement" name="statement">&lt;/textarea>
-    &lt;/div>
-    &lt;input type="hidden" name="_subject" value="feedback">
-    &lt;div class="text-center push">
-      &lt;button class="btn" type="checkout"> Finalize Purchase &lt;/button>
-    &lt;/div>
-  &lt;/fieldset>
-
+    &lt;/fieldset>
+  &lt;/form>
 &lt;/div>
 </pre></code>
             </div>
