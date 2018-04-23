@@ -1,4 +1,4 @@
-.nav ol{
+.nav ol {
   position: relative;
   background-color: var(--color-secondary);
   z-index: 2;
@@ -87,4 +87,5 @@ nav a {
     text-align: right;
     padding-bottom: 0;
   }
+
 }
