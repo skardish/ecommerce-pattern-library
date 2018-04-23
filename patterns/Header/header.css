@@ -80,12 +80,3 @@ nav a {
   padding-bottom: 3px;
   transition: .5s ease;
 }
-
-@media only screen and (min-width: 60em) {
-
-  .nav {
-    text-align: right;
-    padding-bottom: 0;
-  }
-
-}
