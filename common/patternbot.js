@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/skardish/Desktop/ecommerce-pattern-library
- * @version 1524490587092
+ * @version 1524490782567
  */
-const patternManifest_1524490587092 = {
+const patternManifest_1524490782567 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -595,12 +595,12 @@ const patternManifest_1524490587092 = {
       "size64Local": "logo-64.svg"
     },
     "patterns": [
-      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer",
-      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header",
       "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/banners",
       "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/buttons",
       "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/cards",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/footer",
       "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/forms",
+      "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/header",
       "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/leftovers",
       "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/sections.html"
     ],
@@ -746,29 +746,29 @@ const patternManifest_1524490587092 = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
-          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer/footer.html",
-          "localPath": "patterns/Footer/footer.html"
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/footer/footer.html",
+          "localPath": "patterns/footer/footer.html"
         }
       ],
       "md": [
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer/README.md",
-          "localPath": "patterns/Footer/README.md"
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
         }
       ],
       "css": [
         {
           "name": "footer",
           "namePretty": "Footer",
-          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Footer/footer.css",
-          "localPath": "patterns/Footer/footer.css"
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
         }
       ]
     },
@@ -816,29 +816,29 @@ const patternManifest_1524490587092 = {
     {
       "name": "header",
       "namePretty": "Header",
-      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header",
+      "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/header",
       "html": [
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header/header.html",
-          "localPath": "patterns/Header/header.html"
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/header/header.html",
+          "localPath": "patterns/header/header.html"
         }
       ],
       "md": [
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header/README.md",
-          "localPath": "patterns/Header/README.md"
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
         }
       ],
       "css": [
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/Header/header.css",
-          "localPath": "patterns/Header/header.css"
+          "path": "/Users/skardish/Desktop/ecommerce-pattern-library/patterns/header/header.css",
+          "localPath": "patterns/header/header.css"
         }
       ]
     },
@@ -921,5 +921,5 @@ const patternManifest_1524490587092 = {
   }
 };
 
-patternBotIncludes(patternManifest_1524490587092);
+patternBotIncludes(patternManifest_1524490782567);
 }());
